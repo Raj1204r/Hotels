@@ -32,6 +32,5 @@ router.get('/',async (req,res)=>{
   }
 })
 
-router.patch
-
+//comment added 
 module.exports=router
