@@ -5,7 +5,7 @@ const mongoURl = process.env.MONGO_URI;
 const mongoURL = process.env.MONGO_URI_LOCAL;
 
 
-mongoose.connect(mongoURL);
+mongoose.connect(mongoURl);
 
 const db = mongoose.connection;
 
